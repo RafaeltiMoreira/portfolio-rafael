@@ -8,7 +8,7 @@
 
 ## 📚 Seções
 
-O site é composto por cinco seções:
+O site é composto por três seções:
 
 - **Home:** Nele temos uma breve apresentação;
 - **Projetos:** Apresenta alguns projetos desenvolvidos para Front-end e com links para os projetos e repositório GitHub;
