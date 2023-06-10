@@ -10,9 +10,9 @@
 
 O site é composto por três seções:
 
-- **Home:** Nele temos uma breve apresentação;
-- **Projetos:** Apresenta alguns projetos desenvolvidos para Front-end e com links para os projetos e repositório GitHub;
-- **Quem sou:** Nessa seção tenho uma descrição dizendo um pouco sobre mim e linguagens utilizadas;
+- **Home:** Nele temos uma breve apresentação e linguagens utilizadas;
+- **Projetos:** Apresenta alguns projetos desenvolvidos para Front-end e links para os projetos e repositório GitHub;
+- **Quem sou:** Nessa seção tenho uma descrição dizendo um pouco sobre mim.
 
 ---
 
