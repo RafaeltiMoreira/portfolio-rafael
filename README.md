@@ -2,7 +2,7 @@
   🚀<br>Portfólio - Rafael Moreira
 </h1>
 
-![Resultado final do projeto](assets/preview.png)
+![Prévia do projeto](/src/assets/preview.png)
 
 <h4 align="center"><a href="https://rafaeltimoreira.github.io/portfolio-rafael/">Clique para visitar o projeto</a></h4>
 
