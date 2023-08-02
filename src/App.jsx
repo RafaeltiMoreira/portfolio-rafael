@@ -31,17 +31,17 @@ export default function App() {
 
   return (
     <>
-    <button type='button' onClick={handleThemeSwitch} className='fixed z-10 right-2 top-2 bg-indigo-500 text-lg p-1 rounded-lg'>
-      {theme === 'dark' ? '🌛' : '🌞'}
-    </button>
+      <button type='button' onClick={handleThemeSwitch} className='fixed z-10 right-2 top-2 bg-indigo-500 text-lg p-3 rounded-full'>
+        {theme === 'dark' ? '🌛' : '🌞'}
+      </button>
       <div className='font-inter bg:white dark:bg-slate-900'>
         <div className='max-w-5xl mx-auto w-11/12'>
-        <HomeSection />
-        <Services />
-        <Works />
-        <About />
-        <Footer />
+          <HomeSection />
+          <Services />
+          <Works />
+          <About />
         </div>
+        <Footer />
       </div>
     </>
   )
