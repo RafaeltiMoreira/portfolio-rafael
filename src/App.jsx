@@ -5,6 +5,7 @@ import Services from './components/Services';
 import Works from './components/Works';
 import About from './components/About';
 import Footer from './components/Footer';
+import { MdDarkMode, MdOutlineLightMode } from 'react-icons/md';
 
 export default function App() {
   const [theme, setTheme] = useState(null);
@@ -31,8 +32,10 @@ export default function App() {
 
   return (
     <>
-      <button type='button' onClick={handleThemeSwitch} className='fixed z-10 right-2 top-2 bg-indigo-500 text-lg p-3 rounded-full'>
-        {theme === 'dark' ? '🌛' : '🌞'}
+      <button type='button' onClick={handleThemeSwitch} className='fixed z-10 right-2 top-2 bg-indigo-500 text-lg p-3 rounded-full'
+        title={theme === 'dark' ? 'Desativar modo Dark' : 'Desativar modo Light'}
+      >
+        {theme === 'dark' ? <MdDarkMode className='text-gray-300' /> : <MdOutlineLightMode className='text-gray-200' />}
       </button>
       <div className='font-inter bg:white dark:bg-slate-900'>
         <div className='max-w-5xl mx-auto w-11/12'>
